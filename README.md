@@ -1,16 +1,32 @@
-# task_adder
+# 📝 To-Do App (Flutter)
 
-A new Flutter project.
+This is a simple and minimal To-Do application built using **Flutter**. It allows users to add, delete, and manage daily tasks with ease. Ideal for practicing Flutter fundamentals like state management, UI building, and local data storage.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- ✅ Add and delete tasks
+- 📋 View task list dynamically
+- 📌 Mark tasks as completed (optional)
+- 💾 Persistent storage using `SharedPreferences` or `Hive` (based on your implementation)
+- 🎨 Clean and responsive UI
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- SharedPreferences / Hive (for local storage)
+- Material Design
+
+## 📦 Getting Started
+
+### Prerequisites
+
+- Flutter SDK installed
+- Android Studio or VS Code
+
+### Run the app
+
+```bash
+flutter pub get
+flutter run
